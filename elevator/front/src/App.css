@@ -1,0 +1,26 @@
+.Lift{
+    margin: auto;
+    text-align: center;
+  }
+  .inDive{
+    margin: auto;
+  }
+  .inDive span{
+    width: 200px;
+    background-color: aqua;
+  }
+  .floors{
+  width: 240px;
+    margin: auto;
+  }
+  .floors button{
+    width: 80px;
+    height: 80px;
+  }
+  /* .upButton{ */
+    /* animation:button-animation 2s infinite alternate */
+  /* } */
+  @keyframes button-animation{
+    0%{background-color: white;}
+    100%{background-color: blue;}
+  }
