@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { FaRegArrowAltCircleUp,FaRegArrowAltCircleDown, FaDoorClosed } from "react-icons/fa";
 
 const Lift = () => {
@@ -47,9 +47,9 @@ const Lift = () => {
                     console.log(tableC)
                   floorCounter()}}>{num}</button>)})
            }
-       </div>
+      </div>
       </div>
     </div>
   )
 }
-export default Lift
+export default Lift;

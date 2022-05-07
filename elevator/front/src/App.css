@@ -24,3 +24,10 @@
     0%{background-color: white;}
     100%{background-color: blue;}
   }
+.nav {
+  font-size: 1.7em;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  background: lightgray;
+}
